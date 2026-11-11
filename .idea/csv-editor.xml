@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\aulas\BASE DE DADOS EXTERNA\student_grade_ses_dataset.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\aulas\analise de dados\jupter notebook\alunos_data.csv">
           <value>
             <Attribute>
