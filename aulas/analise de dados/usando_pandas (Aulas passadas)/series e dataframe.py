@@ -66,4 +66,9 @@ print("=== NOME E TURMA ===")
 
 for indice in df.index:
     if df.loc[indice, "turma"] == "Python":
-        print(df.loc[indice, "nome"], df.loc[indice, "turma"])
+        print(
+            df.loc[indice, "nome"],
+            df.loc[indice, "turma"]
+        )
+
+maior_ataque = df.groupby()
