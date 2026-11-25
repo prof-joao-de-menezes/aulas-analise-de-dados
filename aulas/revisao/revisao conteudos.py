@@ -51,13 +51,13 @@ produtos = [
 ]
 
 # enumerate separa indices e valores
-# for indice, valor in enumerate(produtos, start=1):
-#     print(f'Indice {indice} | Valor {valor}')
+for indice, valor in enumerate(produtos, start=1):
+    print(f'Indice {indice} | Valor {valor}')
 
 # set retira valores repetidos
 produtos_unicos = set(produtos)
-# print(produtos)
-# print(produtos_unicos)
+print(produtos)
+print(produtos_unicos)
 
 dicionario_clientes = {
     "nome": "João",
@@ -83,14 +83,14 @@ class Aluno:
         self.turma = turma
         self.idade = idade
 
-# class Main:
-#     try:
-#         aluno1 = Aluno("João", "Python", -22)
-#         if aluno1.idade < 0:
-#             aluno1.idade = 0
-#             raise IdadeInvalidaError("Idade é menor do que 0.\nIDADE INVÁLIDA.")
-#     except Exception as erro:
-#         print(erro)
+class Main:
+    try:
+        aluno1 = Aluno("João", "Python", -22)
+        if aluno1.idade < 0:
+            aluno1.idade = 0
+            raise IdadeInvalidaError("Idade é menor do que 0.\nIDADE INVÁLIDA.")
+    except Exception as erro:
+        print(erro)
 
 # -----------------------------------------------------
 def calculo_imposto(valor, imposto):
@@ -108,14 +108,3 @@ cliente = {
     "telefone_1": "6199296-8787",
 }
 print(cliente['telefone_2'])
-
-
-
-
-
-
-
-
-
-
-
